@@ -119,7 +119,7 @@ export const testimonials = [
         role: "Certificado de Experiencia como Desarrollador de Software"
     },
     {
-        quote: "Durante su tiempo en la Dirección de Tecnologías de la Información y Comunicación (TICS) en 2019, demostró habilidades en el soporte y mantenimiento de la infraestructura tecnológica de la universidad.",
+        quote: "Durante su colaboración con la Dirección de Tecnologías de la Información y Comunicación (TICS), demostró excelentes habilidades en el soporte y mantenimiento de la infraestructura tecnológica de la universidad.",
         author: "Universidad Estatal de Bolívar",
         role: "Certificado de Experiencia como Técnico"
     }
