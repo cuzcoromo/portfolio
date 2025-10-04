@@ -103,7 +103,7 @@ export const infrastructure: Infrastructure[] = [
     {
         title: "Mantenimiento de Hardware y Software",
         icon: Cog,
-        description: "Experiencia en mantenimiento preventivo y correctivo de equipos informáticos, incluyendo impresoras, ordenadores de sobremesa y portátiles.",
+        description: "Experiencia en el mantenimiento integral de hardware y software para asegurar la continuidad operativa y el rendimiento óptimo de los sistemas.",
     },
     {
         title: "Redes y Conectividad",
@@ -144,4 +144,5 @@ export const testimonials = [
         role: "Certificado de Participación, Junio 2021"
     }
 ];
+
 
