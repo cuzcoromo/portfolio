@@ -96,9 +96,9 @@ export const infrastructure: Infrastructure[] = [
         description: "Desarrollo de soluciones de software a medida, enfocado en el ciclo de vida completo y entrega de productos de calidad.",
     },
     {
-        title: "Soporte de Hardware y Software",
+        title: "Técnico en la Universidad Estatal de Bolívar",
         icon: Cog,
-        description: "Soporte técnico integral, mantenimiento preventivo y correctivo de equipos informáticos y sistemas operativos.",
+        description: "Soporte en la Dirección de Tecnologías de la Información y Comunicación (TICS) de la universidad durante 2019.",
     },
     {
         title: "Redes y Conectividad",
