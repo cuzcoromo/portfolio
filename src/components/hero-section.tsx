@@ -28,7 +28,7 @@ export function HeroSection() {
                   Ver Proyectos Destacados <ArrowDown className="ml-2 h-5 w-5 animate-bounce" />
                 </a>
               </Button>
-              <Button asChild size="lg" variant="outline">
+              <Button asChild size="lg" variant="outline" className="border-blue-300 border-2 text-blue-300 hover:bg-blue-300 hover:text-white">
                 <a href="#contact">
                   Contratame
                 </a>
