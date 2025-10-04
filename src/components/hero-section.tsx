@@ -10,23 +10,7 @@ export function HeroSection() {
     <section id="home" className="w-full py-12 md:py-24 lg:py-32 bg-secondary/30">
       <div className="container px-4 md:px-6">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 xl:gap-16">
-          <div className="flex justify-center items-center" data-aos="fade-right">
-              <div className="relative">
-                <div className="absolute -inset-1.5 bg-gradient-to-r from-primary to-accent rounded-full opacity-75 blur"></div>
-                {heroImage && (
-                  <Image
-                    src={heroImage.imageUrl}
-                    alt={heroImage.description}
-                    data-ai-hint={heroImage.imageHint}
-                    width={350}
-                    height={350}
-                    className="relative object-cover rounded-full w-[300px] h-[300px] md:w-[350px] md:h-[350px] shadow-lg border-4 border-card"
-                    priority
-                  />
-                )}
-              </div>
-          </div>
-          <div className="flex flex-col justify-center space-y-4 text-center lg:text-left" data-aos="fade-left">
+          <div className="flex flex-col justify-center space-y-4 text-center lg:text-left" data-aos="fade-right">
             <div className="space-y-2">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl/none">
                 Romo Jacobo Cuzco Agualsaca
@@ -45,6 +29,22 @@ export function HeroSection() {
                 </a>
               </Button>
             </div>
+          </div>
+          <div className="flex justify-center items-center" data-aos="fade-left">
+              <div className="relative">
+                <div className="absolute -inset-1 bg-gradient-to-r from-primary to-accent rounded-full opacity-75 blur"></div>
+                {heroImage && (
+                  <Image
+                    src={heroImage.imageUrl}
+                    alt={heroImage.description}
+                    data-ai-hint={heroImage.imageHint}
+                    width={300}
+                    height={300}
+                    className="relative object-cover rounded-full w-[250px] h-[250px] md:w-[300px] md:h-[300px] shadow-lg border-4 border-card"
+                    priority
+                  />
+                )}
+              </div>
           </div>
         </div>
       </div>
