@@ -121,19 +121,19 @@ export const testimonials = [
     },
     {
         id: "big-school-cert",
-        quote: "Otorga el presente certificado por haber completado satisfactoriamente las jornadas formativas en 'DESARROLLO CON IA', impartidas por la prestigiosa academia BIG SCHOOL.",
+        quote: "Otorga el presente certificado por haber completado satisfactoriamente las jornadas formativas en '<span class=\"text-primary font-bold\">DESARROLLO CON IA</span>', impartidas por la prestigiosa academia <span class=\"text-primary font-bold\">BIG SCHOOL</span>.",
         author: "BIG school",
         role: "Curso de Iniciación al Desarrollo con IA (6 horas) - Firmado por Romuald Fons y Brais Moure"
     },
     {
         id: "ueb-cert",
-        quote: "Durante su colaboración con la Dirección de Tecnologías de la Información y Comunicación (TICS), demostró excelentes habilidades en el soporte y mantenimiento de la infraestructura tecnológica de la universidad.",
+        quote: "Durante su colaboración con la Dirección de Tecnologías de la Información y Comunicación (<span class=\"text-primary font-bold\">TICS</span>), demostró excelentes habilidades en el soporte y mantenimiento de la infraestructura tecnológica de la <span class=\"text-primary font-bold\">Universidad</span>.",
         author: "Universidad Estatal de Bolívar",
         role: "Certificado de Experiencia como Técnico"
     },
     {
         id: "forense-cert",
-        quote: "Finalización exitosa del curso de Fundamentos de Cómputo Forense, validando la adquisición de competencias clave en el área de seguridad informática y análisis digital.",
+        quote: "Certificado obtenido tras completar el curso de Fundamentos de Cómputo Forense, adquiriendo conocimientos sólidos en seguridad informática y análisis forense digital.",
         author: "Seguridad Cero",
         role: "Certificado de Participación, Mayo 2021"
     },
