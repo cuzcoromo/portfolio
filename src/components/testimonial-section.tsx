@@ -23,6 +23,10 @@ export function TestimonialSection() {
                 <>
                   &quot;Otorga el presente certificado por haber completado satisfactoriamente las jornadas formativas en &apos;<span className="text-primary font-bold">DESARROLLO CON IA</span>&apos;, impartidas por la prestigiosa academia <span className="text-primary font-bold">BIG SCHOOL</span>.&quot;
                 </>
+              ) : testimonial.id === 'ueb-cert' ? (
+                <>
+                  &quot;Durante su colaboración con la Dirección de Tecnologías de la Información y Comunicación (<span className="text-primary font-bold">TICS</span>), demostró excelentes habilidades en el soporte y mantenimiento de la infraestructura tecnológica de la <span className="text-primary font-bold">Universidad</span>.&quot;
+                </>
               ) : (
                 `"${testimonial.quote}"`
               )}
