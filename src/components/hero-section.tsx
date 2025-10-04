@@ -9,10 +9,10 @@ export function HeroSection() {
   return (
     <section id="home" className="w-full py-10 md:py-12 lg:py-16 bg-secondary/30">
       <div className="container px-6 md:px-10">
-        <div className="grid gap-8 lg:grid-cols-3 lg:gap-12 xl:gap-16 items-center">
-          <div className="lg:col-span-2 flex flex-col justify-center space-y-4 text-center lg:text-left" data-aos="fade-right">
+        <div className="grid gap-8 lg:grid-cols-5 lg:gap-12 xl:gap-16 items-center">
+          <div className="lg:col-span-3 flex flex-col justify-center space-y-4 text-center lg:text-left" data-aos="fade-right">
             <div className="space-y-2">
-              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl/none">
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
                 Romo Jacobo Cuzco Agualsaca
               </h1>
               <p className="text-xl md:text-2xl text-primary font-medium font-headline">
@@ -35,7 +35,7 @@ export function HeroSection() {
               </Button>
             </div>
           </div>
-          <div className="flex justify-center items-center" data-aos="fade-left">
+          <div className="lg:col-span-2 flex justify-center items-center" data-aos="fade-left">
               <div className="relative">
                 <div className="absolute -inset-1 bg-gradient-to-r from-primary to-accent rounded-full opacity-20 blur-sm"></div>
                 {heroImage && (
@@ -43,9 +43,9 @@ export function HeroSection() {
                     src={heroImage.imageUrl}
                     alt={heroImage.description}
                     data-ai-hint={heroImage.imageHint}
-                    width={200}
-                    height={200}
-                    className="relative object-cover rounded-full w-[150px] h-[150px] md:w-[200px] md:h-[200px] shadow-md border-4 border-card"
+                    width={250}
+                    height={250}
+                    className="relative object-cover rounded-full w-[200px] h-[200px] md:w-[250px] md:h-[250px] shadow-md border-4 border-card"
                     priority
                   />
                 )}
