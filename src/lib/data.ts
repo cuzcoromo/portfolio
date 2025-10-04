@@ -91,9 +91,9 @@ type Infrastructure = {
 
 export const infrastructure: Infrastructure[] = [
     {
-        title: "Desarrollo de Sitios Web",
-        icon: Globe,
-        description: "Desarrollo de sitios web para la empresa UMPACTO, enfocado en soluciones a medida y rendimiento.",
+        title: "Desarrollador de Software en UMPACTO",
+        icon: Code,
+        description: "Desarrollo de soluciones de software a medida, enfocado en el ciclo de vida completo y entrega de productos de calidad.",
     },
     {
         title: "Mantenimiento de Hardware",
