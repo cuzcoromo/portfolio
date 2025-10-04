@@ -139,7 +139,7 @@ export const testimonials = [
     },
     {
         id: "ciberseguridad-cert",
-        quote: "Constancia de finalización del curso de Gestión de la Ciberseguridad, que valida los conocimientos adquiridos para la protección de sistemas informáticos y datos.",
+        quote: "Certificación en Gestión de la Ciberseguridad, que valida competencias para la protección de sistemas informáticos y datos.",
         author: "Seguridad Cero",
         role: "Certificado de Participación, Junio 2021"
     }
