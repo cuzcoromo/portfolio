@@ -4,20 +4,20 @@
 
 @layer base {
   :root {
-    --background: 210 20% 98%; /* Light Gray */
-    --foreground: 215 28% 17%; /* Dark Blue */
+    --background: 210 20% 98%;
+    --foreground: 212 40% 10%;
     --card: 0 0% 100%;
-    --card-foreground: 215 28% 17%;
+    --card-foreground: 212 40% 10%;
     --popover: 0 0% 100%;
-    --popover-foreground: 215 28% 17%;
-    --primary: 217 91% 60%; /* Bright Blue */
+    --popover-foreground: 212 40% 10%;
+    --primary: 217 91% 60%; /* Bright Blue from image */
     --primary-foreground: 0 0% 100%;
     --secondary: 210 40% 96.1%;
-    --secondary-foreground: 215 28% 17%;
+    --secondary-foreground: 212 40% 10%;
     --muted: 210 40% 96.1%;
     --muted-foreground: 215 20.2% 65.1%;
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 215 28% 17%;
+    --accent: 217 91% 60%;
+    --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     --border: 214.3 31.8% 91.4%;
@@ -27,13 +27,13 @@
   }
  
   .dark {
-    --background: 212 40% 10%; /* Dark Navy */
-    --foreground: 210 40% 98%; /* Light Gray */
+    --background: 212 40% 10%; /* Dark Navy from image */
+    --foreground: 210 40% 98%; /* Light Gray from image */
     --card: 212 40% 14%;
     --card-foreground: 210 40% 98%;
     --popover: 212 40% 10%;
     --popover-foreground: 210 40% 98%;
-    --primary: 217 91% 60%; /* Bright Blue */
+    --primary: 217 91% 60%; /* Bright Blue from image */
     --primary-foreground: 0 0% 100%;
     --secondary: 212 40% 14%;
     --secondary-foreground: 210 40% 98%;
