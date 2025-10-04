@@ -127,5 +127,10 @@ export const testimonials = [
         quote: "Constancia de finalización del curso de Fundamentos de Cómputo Forense, demostrando la adquisición de conocimientos clave en el área de seguridad informática.",
         author: "Seguridad Cero",
         role: "Certificado de Participación, Mayo 2021"
+    },
+    {
+        quote: "Constancia de finalización del curso de Gestión de la Ciberseguridad, que valida los conocimientos adquiridos para la protección de sistemas informáticos y datos.",
+        author: "Seguridad Cero",
+        role: "Certificado de Participación, Junio 2021"
     }
 ];
