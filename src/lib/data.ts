@@ -133,7 +133,7 @@ export const testimonials = [
     },
     {
         id: "forense-cert",
-        quote: "Certificado obtenido tras completar el curso de Fundamentos de Cómputo Forense, adquiriendo conocimientos sólidos en seguridad informática y análisis forense digital.",
+        quote: "Certificación en Fundamentos de Cómputo Forense, que acredita conocimientos sólidos en seguridad informática y análisis forense digital.",
         author: "Seguridad Cero",
         role: "Certificado de Participación, Mayo 2021"
     },
