@@ -115,7 +115,7 @@ export const infrastructure: Infrastructure[] = [
 export const testimonials = [
     {
         id: "umpacto-cert",
-        quote: "Romo Cuzco demostró un alto nivel de compromiso, profesionalismo y responsabilidad durante su colaboración. Cumplió con todas las tareas asignadas de manera satisfactoria y es un activo valioso en cualquier equipo de desarrollo.",
+        quote: "Demostró un alto nivel de compromiso, profesionalismo y responsabilidad durante su colaboración, cumpliendo satisfactoriamente con todas las tareas asignadas. Es un activo valioso para cualquier equipo de desarrollo.",
         author: "Umpacto Soluciones Cía. Ltda.",
         role: "Certificado de Experiencia como Desarrollador de Software"
     },
