@@ -8,7 +8,7 @@ export function HeroSection() {
   
   return (
     <section id="home" className="w-full py-12 md:py-24 lg:py-32 bg-secondary/30">
-      <div className="container px-4 md:px-6">
+      <div className="container px-8 md:px-12">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 xl:gap-16">
           <div className="flex flex-col justify-center space-y-4 text-center lg:text-left" data-aos="fade-right">
             <div className="space-y-2">
