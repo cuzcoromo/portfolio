@@ -37,7 +37,7 @@ export function HeroSection() {
           </div>
           <div className="flex justify-center items-center" data-aos="fade-left">
               <div className="relative">
-                <div className="absolute -inset-1 bg-gradient-to-r from-primary to-accent rounded-full opacity-75 blur"></div>
+                <div className="absolute -inset-1 bg-gradient-to-r from-primary to-accent rounded-full opacity-75 blur-sm"></div>
                 {heroImage && (
                   <Image
                     src={heroImage.imageUrl}
@@ -45,7 +45,7 @@ export function HeroSection() {
                     data-ai-hint={heroImage.imageHint}
                     width={300}
                     height={300}
-                    className="relative object-cover rounded-full w-[250px] h-[250px] md:w-[300px] md:h-[300px] shadow-lg border-4 border-card"
+                    className="relative object-cover rounded-full w-[250px] h-[250px] md:w-[300px] md:h-[300px] shadow-md border-4 border-card"
                     priority
                   />
                 )}
