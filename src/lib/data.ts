@@ -101,14 +101,26 @@ export const infrastructure: Infrastructure[] = [
         description: "Soporte en la Dirección de Tecnologías de la Información y Comunicación (TICS) de la universidad durante 2019.",
     },
     {
+        title: "Mantenimiento de Hardware y Software",
+        icon: Cog,
+        description: "Experiencia en mantenimiento preventivo y correctivo de equipos informáticos, incluyendo impresoras, ordenadores de sobremesa y portátiles.",
+    },
+    {
         title: "Redes y Conectividad",
         icon: Network,
         description: "Mantenimiento e instalación de redes, switches y cableado estructurado.",
     }
 ];
 
-export const testimonial = {
-    quote: "Romo Cuzco demostró un alto nivel de compromiso, profesionalismo y responsabilidad durante su colaboración. Cumplió con todas las tareas asignadas de manera satisfactoria y es un activo valioso en cualquier equipo de desarrollo.",
-    author: "Umpacto Soluciones Cía. Ltda.",
-    role: "Certificado de Experiencia como Desarrollador de Software"
-};
+export const testimonials = [
+    {
+        quote: "Romo Cuzco demostró un alto nivel de compromiso, profesionalismo y responsabilidad durante su colaboración. Cumplió con todas las tareas asignadas de manera satisfactoria y es un activo valioso en cualquier equipo de desarrollo.",
+        author: "Umpacto Soluciones Cía. Ltda.",
+        role: "Certificado de Experiencia como Desarrollador de Software"
+    },
+    {
+        quote: "Durante su tiempo en la Dirección de Tecnologías de la Información y Comunicación (TICS) en 2019, demostró habilidades en el soporte y mantenimiento de la infraestructura tecnológica de la universidad.",
+        author: "Universidad Estatal de Bolívar",
+        role: "Certificado de Experiencia como Técnico"
+    }
+];
