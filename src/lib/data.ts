@@ -119,7 +119,7 @@ export const testimonials = [
         role: "Certificado de Experiencia como Desarrollador de Software"
     },
     {
-        quote: "Certificado de asistencia a las jornadas formativas 'DESARROLLO CON IA', otorgado por la prestigiosa academia BIG school, una empresa de alta categoría en formación tecnológica.",
+        quote: "Otorga el presente certificado por haber completado satisfactoriamente las jornadas formativas en 'Desarrollo con IA', impartidas por la prestigiosa academia BIG school.",
         author: "BIG school",
         role: "Curso de Iniciación al Desarrollo con IA (6 horas) - Firmado por Romuald Fons y Brais Moure"
     },
