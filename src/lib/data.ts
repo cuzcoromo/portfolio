@@ -122,5 +122,10 @@ export const testimonials = [
         quote: "Durante su colaboración con la Dirección de Tecnologías de la Información y Comunicación (TICS), demostró excelentes habilidades en el soporte y mantenimiento de la infraestructura tecnológica de la universidad.",
         author: "Universidad Estatal de Bolívar",
         role: "Certificado de Experiencia como Técnico"
+    },
+    {
+        quote: "Constancia de finalización del curso de Fundamentos de Cómputo Forense, demostrando la adquisición de conocimientos clave en el área de seguridad informática.",
+        author: "Seguridad Cero",
+        role: "Certificado de Participación, Mayo 2021"
     }
 ];
