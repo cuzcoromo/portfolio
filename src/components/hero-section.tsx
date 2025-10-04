@@ -28,6 +28,11 @@ export function HeroSection() {
                   Ver Proyectos Destacados <ArrowDown className="ml-2 h-5 w-5 animate-bounce" />
                 </a>
               </Button>
+              <Button asChild size="lg" variant="outline">
+                <a href="#contact">
+                  Contratame
+                </a>
+              </Button>
             </div>
           </div>
           <div className="flex justify-center items-center" data-aos="fade-left">

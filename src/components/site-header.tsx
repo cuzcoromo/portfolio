@@ -12,6 +12,7 @@ const navLinks = [
   { href: "#skills", label: "Habilidades" },
   { href: "#projects", label: "Proyectos" },
   { href: "#experience", label: "Experiencia" },
+  { href: "#contact", label: "Contacto" }
 ];
 
 export function SiteHeader() {
@@ -29,32 +30,18 @@ export function SiteHeader() {
     setIsOpen(false);
   };
 
-  const navItems = navLinks.slice(0, 2);
-  const navItemsEnd = navLinks.slice(2);
+  const navItems = navLinks;
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
-        <Link href="/" className="flex items-center space-x-2">
+        <Link href="/" className="mr-auto flex items-center space-x-2">
           <Mountain className="h-6 w-6 text-primary" />
           <span className="hidden font-bold sm:inline-block font-headline">Romo Cuzco</span>
         </Link>
-        <div className="flex flex-1 items-center justify-end space-x-4">
+        <div className="flex items-center justify-end space-x-4">
           <nav className="hidden items-center space-x-6 text-sm font-medium md:flex">
             {navItems.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="transition-colors hover:text-primary"
-                onClick={(e) => handleLinkClick(e, link.href)}
-              >
-                {link.label}
-              </Link>
-            ))}
-             <Button asChild variant="default" size="sm">
-              <a href="#contact" onClick={(e) => handleLinkClick(e, "#contact")}>Contacto</a>
-            </Button>
-            {navItemsEnd.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
@@ -84,9 +71,6 @@ export function SiteHeader() {
                     {link.label}
                   </Link>
                 ))}
-                 <Button asChild size="lg" className="mt-4">
-                  <a href="#contact" onClick={(e) => handleLinkClick(e, "#contact")}>Contacto</a>
-                </Button>
               </nav>
             </SheetContent>
           </Sheet>
