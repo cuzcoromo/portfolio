@@ -2,21 +2,21 @@
   "placeholderImages": [
     {
       "id": "romo-cuzco-portrait",
-      "description": "Abstract developer image",
-      "imageUrl": "https://images.unsplash.com/photo-1605379399642-870262d3d051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHRlY2h8ZW58MHx8fHwxNzYwMTI4ODgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Abstract tech image",
+      "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHRlY2h8ZW58MHx8fHwxNzYwMTI4ODgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract tech"
     },
     {
       "id": "ueb-web-system",
       "description": "A generic image representing web development",
-      "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9ncmFtbWluZ3xlbnwwfHx8fDE3NjAxOTIwNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "web development"
+      "imageUrl": "https://images.unsplash.com/photo-1504639725590-9420984388bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9ncmFtbWluZ3xlbnwwfHx8fDE3NjAxOTIwNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "programming web"
     },
     {
       "id": "mobile-app-community",
-      "description": "Screenshot of the community engagement mobile app",
-      "imageUrl": "https://images.unsplash.com/photo-1601972602237-8c79241e468b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzU5NTg0NTMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mobile app"
+      "description": "A generic image representing mobile app development",
+      "imageUrl": "https://images.unsplash.com/photo-1551650975-87deedd944c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3NjA4Njc4NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile development"
     }
   ]
 }
