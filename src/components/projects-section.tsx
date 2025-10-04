@@ -81,7 +81,7 @@ const ProjectCard = ({ project, index }: { project: Project, index: number }) =>
 
 export function ProjectsSection() {
   return (
-    <SectionWrapper id="projects" className="bg-background">
+    <SectionWrapper id="projects" className="bg-background py-8 md:py-12 lg:py-16">
       <div className="flex flex-col items-center text-center gap-4 mb-12">
         <h2 className="text-3xl md:text-4xl font-bold">Proyectos Destacados</h2>
         <p className="max-w-2xl text-muted-foreground md:text-lg">
