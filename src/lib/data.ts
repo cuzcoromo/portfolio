@@ -1,5 +1,5 @@
 import type { LucideIcon } from 'lucide-react';
-import { Code, Server, Smartphone, Database, Rocket, Users, Cog, Network } from 'lucide-react';
+import { Code, Server, Smartphone, Database, Rocket, Users, Cog, Network, Globe } from 'lucide-react';
 
 type SkillCategory = {
   title: string;
@@ -90,6 +90,11 @@ type Infrastructure = {
 };
 
 export const infrastructure: Infrastructure[] = [
+    {
+        title: "Desarrollo de Sitios Web",
+        icon: Globe,
+        description: "Desarrollo de sitios web para la empresa UMPACTO, enfocado en soluciones a medida y rendimiento.",
+    },
     {
         title: "Mantenimiento de Hardware",
         icon: Cog,
