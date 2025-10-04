@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "romo-cuzco-portrait",
-      "description": "Professional portrait of Romo Cuzco",
-      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk1OTkzMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional portrait"
+      "description": "Abstract developer image",
+      "imageUrl": "https://images.unsplash.com/photo-1671422668840-9af25e9bc5aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBkZXZlbG9wZXJ8ZW58MHx8fHwxNzU5NjA2NzI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract developer"
     },
     {
       "id": "ueb-web-system",
