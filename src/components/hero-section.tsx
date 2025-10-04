@@ -43,9 +43,9 @@ export function HeroSection() {
                     src={heroImage.imageUrl}
                     alt={heroImage.description}
                     data-ai-hint={heroImage.imageHint}
-                    width={100}
-                    height={100}
-                    className="relative object-cover rounded-full w-[100px] h-[100px] md:w-[150px] md:h-[150px] shadow-md border-4 border-card"
+                    width={200}
+                    height={200}
+                    className="relative object-cover rounded-full w-[150px] h-[150px] md:w-[200px] md:h-[200px] shadow-md border-4 border-card"
                     priority
                   />
                 )}
