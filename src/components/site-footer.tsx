@@ -20,7 +20,7 @@ export function SiteFooter() {
             &copy; {new Date().getFullYear()} Romo Cuzco. Todos los derechos reservados.
           </p>
            <Link href="/enhance-ui" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-            AI UI/UX Enhancer
+            Mejorador de UI/UX con IA
           </Link>
         </div>
       </div>
