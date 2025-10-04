@@ -12,7 +12,6 @@ const navLinks = [
   { href: "#skills", label: "Habilidades" },
   { href: "#projects", label: "Proyectos" },
   { href: "#experience", label: "Experiencia" },
-  { href: "#contact", label: "Contacto" },
 ];
 
 export function SiteHeader() {
@@ -33,7 +32,7 @@ export function SiteHeader() {
   const navItems = navLinks;
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
         <Link href="/" className="mr-auto flex items-center space-x-2">
           <Mountain className="h-6 w-6 text-primary" />
@@ -51,6 +50,11 @@ export function SiteHeader() {
                 {link.label}
               </Link>
             ))}
+             <Button asChild size="sm" variant="outline">
+                <a href="#contact">
+                  Contacto
+                </a>
+              </Button>
           </nav>
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
@@ -71,6 +75,13 @@ export function SiteHeader() {
                     {link.label}
                   </Link>
                 ))}
+                 <Link
+                    href="#contact"
+                    className="text-lg font-medium transition-colors hover:text-primary"
+                    onClick={(e) => handleLinkClick(e, "#contact")}
+                  >
+                    Contacto
+                  </Link>
               </nav>
             </SheetContent>
           </Sheet>

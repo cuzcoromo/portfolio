@@ -14,7 +14,7 @@ const ProjectCard = ({ project, index }: { project: Project, index: number }) =>
   const ImageContent = () => (
     <div className="lg:w-1/2 flex justify-center items-center">
       {image && (
-        <Card className="overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300 w-full">
+        <Card className="overflow-hidden bg-muted/30 shadow-xl hover:shadow-2xl transition-shadow duration-300 w-full">
           <Image
             src={image.imageUrl}
             alt={image.description}
@@ -55,7 +55,7 @@ const ProjectCard = ({ project, index }: { project: Project, index: number }) =>
         <div className="space-y-2">
           <h4 className="font-semibold flex items-center gap-2"><Layers className="w-5 h-5 text-accent"/> Tecnologías Clave</h4>
           <div className="flex flex-wrap gap-2">
-            {project.technologies.map(tech => <Badge key={tech}>{tech}</Badge>)}
+            {project.technologies.map(tech => <Badge key={tech} variant="secondary">{tech}</Badge>)}
           </div>
         </div>
 
@@ -81,7 +81,7 @@ const ProjectCard = ({ project, index }: { project: Project, index: number }) =>
 
 export function ProjectsSection() {
   return (
-    <SectionWrapper id="projects" className="bg-secondary/30">
+    <SectionWrapper id="projects" className="bg-background">
       <div className="flex flex-col items-center text-center gap-4 mb-12">
         <h2 className="text-3xl md:text-4xl font-bold">Proyectos Destacados</h2>
         <p className="max-w-2xl text-muted-foreground md:text-lg">

@@ -4,7 +4,7 @@ import { SectionWrapper } from "./section-wrapper";
 
 export function InfrastructureSection() {
   return (
-    <SectionWrapper id="experience" className="bg-secondary/30">
+    <SectionWrapper id="experience" className="bg-background">
       <div className="flex flex-col items-center text-center gap-4 mb-12">
         <h2 className="text-3xl md:text-4xl font-bold">Mantenimiento y Gestión de Infraestructura</h2>
         <p className="max-w-3xl text-muted-foreground md:text-lg">
@@ -13,7 +13,7 @@ export function InfrastructureSection() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
         {infrastructure.map((item) => (
-          <Card key={item.title} className="text-center hover:shadow-lg transition-shadow duration-300">
+          <Card key={item.title} className="text-center hover:shadow-lg transition-shadow duration-300 bg-secondary/30">
             <CardHeader className="flex flex-col items-center gap-4">
               <div className="bg-primary/10 p-3 rounded-full">
                 <item.icon className="w-8 h-8 text-primary" />
