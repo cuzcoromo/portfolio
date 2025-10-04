@@ -119,6 +119,11 @@ export const testimonials = [
         role: "Certificado de Experiencia como Desarrollador de Software"
     },
     {
+        quote: "Certificado de asistencia a las jornadas formativas 'DESARROLLO CON IA', otorgado por la prestigiosa academia BIG school, una empresa de alta categoría en formación tecnológica.",
+        author: "BIG school",
+        role: "Curso de Iniciación al Desarrollo con IA (6 horas) - Firmado por Romuald Fons y Brais Moure"
+    },
+    {
         quote: "Durante su colaboración con la Dirección de Tecnologías de la Información y Comunicación (TICS), demostró excelentes habilidades en el soporte y mantenimiento de la infraestructura tecnológica de la universidad.",
         author: "Universidad Estatal de Bolívar",
         role: "Certificado de Experiencia como Técnico"
