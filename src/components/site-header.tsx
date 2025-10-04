@@ -29,29 +29,42 @@ export function SiteHeader() {
     setIsOpen(false);
   };
 
+  const navItems = navLinks.slice(0, 2);
+  const navItemsEnd = navLinks.slice(2);
+
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
-        <Link href="/" className="mr-6 flex items-center space-x-2">
+        <Link href="/" className="flex items-center space-x-2">
           <Mountain className="h-6 w-6 text-primary" />
           <span className="hidden font-bold sm:inline-block font-headline">Romo Cuzco</span>
         </Link>
-        <nav className="hidden items-center space-x-6 text-sm font-medium md:flex">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="transition-colors hover:text-primary"
-              onClick={(e) => handleLinkClick(e, link.href)}
-            >
-              {link.label}
-            </Link>
-          ))}
-        </nav>
         <div className="flex flex-1 items-center justify-end space-x-4">
-          <Button asChild className="hidden sm:inline-flex">
-            <a href="#contact">Contacto</a>
-          </Button>
+          <nav className="hidden items-center space-x-6 text-sm font-medium md:flex">
+            {navItems.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="transition-colors hover:text-primary"
+                onClick={(e) => handleLinkClick(e, link.href)}
+              >
+                {link.label}
+              </Link>
+            ))}
+             <Button asChild variant="default" size="sm">
+              <a href="#contact" onClick={(e) => handleLinkClick(e, "#contact")}>Contacto</a>
+            </Button>
+            {navItemsEnd.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="transition-colors hover:text-primary"
+                onClick={(e) => handleLinkClick(e, link.href)}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" className="md:hidden">
