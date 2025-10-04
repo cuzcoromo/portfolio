@@ -135,14 +135,15 @@ export const testimonials = [
         id: "forense-cert",
         quote: "Certificación en Fundamentos de Cómputo Forense, que acredita conocimientos sólidos en seguridad informática y análisis forense digital.",
         author: "Seguridad Cero",
-        role: "Certificado de Participación, Mayo 2021"
+        role: "Certificación Profesional, Mayo 2021"
     },
     {
         id: "ciberseguridad-cert",
         quote: "Certificación en Gestión de la Ciberseguridad, que valida competencias para la protección de sistemas informáticos y datos.",
         author: "Seguridad Cero",
-        role: "Certificado de Participación, Junio 2021"
+        role: "Certificación Profesional, Junio 2021"
     }
 ];
+
 
 
