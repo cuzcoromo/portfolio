@@ -110,5 +110,5 @@ export const infrastructure: Infrastructure[] = [
 export const testimonial = {
     quote: "Romo Cuzco demostró un alto nivel de compromiso, profesionalismo y responsabilidad durante su colaboración. Cumplió con todas las tareas asignadas de manera satisfactoria y es un activo valioso en cualquier equipo de desarrollo.",
     author: "Umpacto Soluciones Cía. Ltda.",
-    role: "Referencia Clave"
+    role: "Certificado de Experiencia como Desarrollador de Software"
 };
