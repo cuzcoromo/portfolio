@@ -1,3 +1,22 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "romo-cuzco-portrait",
+      "description": "Professional portrait of Romo Cuzco",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk1OTkzMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional portrait"
+    },
+    {
+      "id": "ueb-web-system",
+      "description": "Screenshot of the UEB web system interface",
+      "imageUrl": "https://images.unsplash.com/photo-1667017897661-47f65e263ab0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx1bml2ZXJzaXR5JTIwd2Vic2l0ZXxlbnwwfHx8fDE3NTk1NDcxMTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "university website"
+    },
+    {
+      "id": "mobile-app-community",
+      "description": "Screenshot of the community engagement mobile app",
+      "imageUrl": "https://images.unsplash.com/photo-1601972602237-8c79241e468b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzU5NTg0NTMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile app"
+    }
+  ]
 }
