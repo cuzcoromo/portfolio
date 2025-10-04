@@ -96,9 +96,9 @@ export const infrastructure: Infrastructure[] = [
         description: "Desarrollo de soluciones de software a medida, enfocado en el ciclo de vida completo y entrega de productos de calidad.",
     },
     {
-        title: "Mantenimiento de Hardware",
+        title: "Soporte de Hardware y Software",
         icon: Cog,
-        description: "Soporte técnico integral y mantenimiento de equipos informáticos y periféricos.",
+        description: "Soporte técnico integral, mantenimiento preventivo y correctivo de equipos informáticos y sistemas operativos.",
     },
     {
         title: "Redes y Conectividad",
