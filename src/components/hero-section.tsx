@@ -12,14 +12,14 @@ export function HeroSection() {
         <div className="grid gap-8 lg:grid-cols-5 lg:gap-12 xl:gap-16 items-center">
           <div className="lg:col-span-3 flex flex-col justify-center space-y-4 text-center lg:text-left" data-aos="fade-right">
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                 Romo Jacobo Cuzco Agualsaca
               </h1>
               <p className="text-xl md:text-2xl text-primary font-medium font-headline">
                 Ingeniero en Sistemas Computacionales
               </p>
             </div>
-            <p className="max-w-3xl text-muted-foreground md:text-xl mx-auto lg:mx-0">
+            <p className="max-w-3xl text-muted-foreground md:text-xl mx-auto lg:mx-0 text-justify">
               Desarrollador Web y Móvil Full Stack. Adaptabilidad y experiencia integral en diseño de vistas gráficas (UI/UX), desarrollo con React, Node.js, Flutter y administración de Bases de Datos.
             </p>
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center lg:justify-start pt-4">
@@ -43,9 +43,9 @@ export function HeroSection() {
                     src={heroImage.imageUrl}
                     alt={heroImage.description}
                     data-ai-hint={heroImage.imageHint}
-                    width={250}
-                    height={250}
-                    className="relative object-cover rounded-full w-[200px] h-[200px] md:w-[250px] md:h-[250px] shadow-md border-4 border-card"
+                    width={300}
+                    height={300}
+                    className="relative object-cover rounded-full w-[250px] h-[250px] md:w-[300px] md:h-[300px] shadow-md border-4 border-card"
                     priority
                   />
                 )}
