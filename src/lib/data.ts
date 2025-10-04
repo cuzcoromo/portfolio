@@ -123,7 +123,7 @@ export const testimonials = [
         id: "big-school-cert",
         quote: "Otorga el presente certificado por haber completado satisfactoriamente las jornadas formativas en '<span class=\"text-primary font-bold\">DESARROLLO CON IA</span>', impartidas por la prestigiosa academia <span class=\"text-primary font-bold\">BIG SCHOOL</span>.",
         author: "BIG school",
-        role: "Curso de Iniciación al Desarrollo con IA (6 horas) - Firmado por Romuald Fons y Brais Moure"
+        role: "Certificado en Desarrollo con IA - Firmado por Romuald Fons y Brais Moure"
     },
     {
         id: "ueb-cert",
@@ -144,3 +144,4 @@ export const testimonials = [
         role: "Certificado de Participación, Junio 2021"
     }
 ];
+
