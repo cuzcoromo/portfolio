@@ -19,7 +19,13 @@ export function TestimonialSection() {
                 <Award className="w-10 h-10 text-accent" />
             </div>
             <blockquote className="text-lg md:text-xl italic">
-              "{testimonial.quote}"
+              {testimonial.id === 'big-school-cert' ? (
+                <>
+                  &quot;Otorga el presente certificado por haber completado satisfactoriamente las jornadas formativas en &apos;<span className="text-primary font-bold">DESARROLLO CON IA</span>&apos;, impartidas por la prestigiosa academia <span className="text-primary font-bold">BIG SCHOOL</span>.&quot;
+                </>
+              ) : (
+                `"${testimonial.quote}"`
+              )}
             </blockquote>
             <div>
               <p className="font-bold">{testimonial.author}</p>

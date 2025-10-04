@@ -114,26 +114,31 @@ export const infrastructure: Infrastructure[] = [
 
 export const testimonials = [
     {
+        id: "umpacto-cert",
         quote: "Romo Cuzco demostró un alto nivel de compromiso, profesionalismo y responsabilidad durante su colaboración. Cumplió con todas las tareas asignadas de manera satisfactoria y es un activo valioso en cualquier equipo de desarrollo.",
         author: "Umpacto Soluciones Cía. Ltda.",
         role: "Certificado de Experiencia como Desarrollador de Software"
     },
     {
+        id: "big-school-cert",
         quote: "Otorga el presente certificado por haber completado satisfactoriamente las jornadas formativas en 'DESARROLLO CON IA', impartidas por la prestigiosa academia BIG SCHOOL.",
         author: "BIG school",
         role: "Curso de Iniciación al Desarrollo con IA (6 horas) - Firmado por Romuald Fons y Brais Moure"
     },
     {
+        id: "ueb-cert",
         quote: "Durante su colaboración con la Dirección de Tecnologías de la Información y Comunicación (TICS), demostró excelentes habilidades en el soporte y mantenimiento de la infraestructura tecnológica de la universidad.",
         author: "Universidad Estatal de Bolívar",
         role: "Certificado de Experiencia como Técnico"
     },
     {
+        id: "forense-cert",
         quote: "Constancia de finalización del curso de Fundamentos de Cómputo Forense, demostrando la adquisición de conocimientos clave en el área de seguridad informática.",
         author: "Seguridad Cero",
         role: "Certificado de Participación, Mayo 2021"
     },
     {
+        id: "ciberseguridad-cert",
         quote: "Constancia de finalización del curso de Gestión de la Ciberseguridad, que valida los conocimientos adquiridos para la protección de sistemas informáticos y datos.",
         author: "Seguridad Cero",
         role: "Certificado de Participación, Junio 2021"
