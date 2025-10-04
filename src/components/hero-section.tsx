@@ -9,8 +9,8 @@ export function HeroSection() {
   return (
     <section id="home" className="w-full py-10 md:py-12 lg:py-16 bg-secondary/30">
       <div className="container px-6 md:px-10">
-        <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 xl:gap-16">
-          <div className="flex flex-col justify-center space-y-4 text-center lg:text-left" data-aos="fade-right">
+        <div className="grid gap-8 lg:grid-cols-3 lg:gap-12 xl:gap-16 items-center">
+          <div className="lg:col-span-2 flex flex-col justify-center space-y-4 text-center lg:text-left" data-aos="fade-right">
             <div className="space-y-2">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl/none">
                 Romo Jacobo Cuzco Agualsaca
@@ -19,7 +19,7 @@ export function HeroSection() {
                 Ingeniero en Sistemas Computacionales
               </p>
             </div>
-            <p className="max-w-[600px] text-muted-foreground md:text-xl mx-auto lg:mx-0">
+            <p className="max-w-3xl text-muted-foreground md:text-xl mx-auto lg:mx-0">
               Desarrollador Web y Móvil Full Stack. Adaptabilidad y experiencia integral en diseño de vistas gráficas (UI/UX), desarrollo con React, Node.js, Flutter y administración de Bases de Datos.
             </p>
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center lg:justify-start pt-4">
@@ -43,9 +43,9 @@ export function HeroSection() {
                     src={heroImage.imageUrl}
                     alt={heroImage.description}
                     data-ai-hint={heroImage.imageHint}
-                    width={200}
-                    height={200}
-                    className="relative object-cover rounded-full w-[150px] h-[150px] md:w-[200px] md:h-[200px] shadow-md border-4 border-card"
+                    width={100}
+                    height={100}
+                    className="relative object-cover rounded-full w-[100px] h-[100px] md:w-[150px] md:h-[150px] shadow-md border-4 border-card"
                     priority
                   />
                 )}
