@@ -7,7 +7,7 @@ export function HeroSection() {
   const heroImage = PlaceHolderImages.find(p => p.id === 'romo-cuzco-portrait');
   
   return (
-    <section id="home" className="w-full py-12 md:py-16 lg:py-20 bg-secondary/30">
+    <section id="home" className="w-full py-10 md:py-12 lg:py-16 bg-background">
       <div className="container px-8 md:px-12">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 xl:gap-16">
           <div className="flex flex-col justify-center space-y-4 text-center lg:text-left" data-aos="fade-right">
@@ -26,6 +26,11 @@ export function HeroSection() {
               <Button asChild size="lg">
                 <a href="#projects">
                   Ver Proyectos Destacados <ArrowDown className="ml-2 h-5 w-5 animate-bounce" />
+                </a>
+              </Button>
+              <Button asChild size="lg" variant="outline">
+                <a href="#contact">
+                  Contratame
                 </a>
               </Button>
             </div>
