@@ -12,7 +12,6 @@ const navLinks = [
   { href: "#skills", label: "Habilidades" },
   { href: "#projects", label: "Proyectos" },
   { href: "#experience", label: "Experiencia" },
-  { href: "#contact", label: "Contacto" }
 ];
 
 export function SiteHeader() {
@@ -51,6 +50,11 @@ export function SiteHeader() {
                 {link.label}
               </Link>
             ))}
+             <Button asChild size="sm">
+                <a href="#contact">
+                  Contacto
+                </a>
+              </Button>
           </nav>
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
@@ -71,6 +75,11 @@ export function SiteHeader() {
                     {link.label}
                   </Link>
                 ))}
+                 <Button asChild size="sm">
+                  <a href="#contact" onClick={(e) => handleLinkClick(e, '#contact')}>
+                    Contacto
+                  </a>
+              </Button>
               </nav>
             </SheetContent>
           </Sheet>

@@ -3,8 +3,8 @@ import { Mountain } from "lucide-react";
 
 export function SiteFooter() {
   return (
-    <footer id="contact" className="bg-secondary">
-      <div className="container py-12 text-center text-secondary-foreground">
+    <footer id="contact" className="bg-secondary/30">
+      <div className="container py-12 text-center">
         <div className="flex flex-col items-center gap-4">
           <Mountain className="h-8 w-8 text-primary" />
           <h3 className="text-2xl font-bold">Contacto</h3>
