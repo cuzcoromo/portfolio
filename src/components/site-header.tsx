@@ -50,11 +50,6 @@ export function SiteHeader() {
                 {link.label}
               </Link>
             ))}
-             <Button asChild size="sm" variant="outline">
-                <a href="#contact">
-                  Contacto
-                </a>
-              </Button>
           </nav>
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
