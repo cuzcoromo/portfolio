@@ -98,7 +98,7 @@ export const infrastructure: Infrastructure[] = [
     {
         title: "Mantenimiento de Hardware",
         icon: Cog,
-        description: "Mantenimiento preventivo y correctivo de impresoras, computadoras de mesa y laptops.",
+        description: "Soporte técnico integral y mantenimiento de equipos informáticos y periféricos.",
     },
     {
         title: "Redes y Conectividad",
