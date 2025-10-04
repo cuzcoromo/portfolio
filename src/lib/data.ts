@@ -133,7 +133,7 @@ export const testimonials = [
     },
     {
         id: "forense-cert",
-        quote: "Constancia de finalización del curso de Fundamentos de Cómputo Forense, demostrando la adquisición de conocimientos clave en el área de seguridad informática.",
+        quote: "Finalización exitosa del curso de Fundamentos de Cómputo Forense, validando la adquisición de competencias clave en el área de seguridad informática y análisis digital.",
         author: "Seguridad Cero",
         role: "Certificado de Participación, Mayo 2021"
     },
