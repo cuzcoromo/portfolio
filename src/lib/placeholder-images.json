@@ -9,13 +9,13 @@
     {
       "id": "ueb-web-system",
       "description": "A generic image representing web development",
-      "imageUrl": "https://images.unsplash.com/photo-1504639725590-9420984388bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9ncmFtbWluZ3xlbnwwfHx8fDE3NjAxOTIwNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "programming web"
+      "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3NjE0OTY1OTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "web development"
     },
     {
       "id": "mobile-app-community",
       "description": "A generic image representing mobile app development",
-      "imageUrl": "https://images.unsplash.com/photo-1551650975-87deedd944c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3NjA4Njc4NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtb2JpbGUlMjBhcHAlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3NjA4Njc4OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mobile development"
     }
   ]
