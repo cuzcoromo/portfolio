@@ -11,9 +11,12 @@ export function SiteFooter() {
           <p className="max-w-md text-muted-foreground">
             Siempre estoy abierto a discutir nuevos proyectos, ideas creativas u oportunidades para ser parte de sus visiones.
           </p>
-          <a href="mailto:romo.cuzco@example.com" className="text-lg font-semibold text-primary hover:underline">
+          {/* <a href="mailto:romo.cuzco@example.com" className="text-lg font-semibold text-primary hover:underline">
             romo.cuzco@example.com
-          </a>
+          </a> */}
+          <p className="text-lg font-semibold text-primary hover:underline">
+            romo.cuzco@example.com
+          </p>
         </div>
         <div className="mt-8 border-t pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">

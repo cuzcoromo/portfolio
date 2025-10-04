@@ -38,17 +38,19 @@ export function HeroSection() {
           <div className="lg:col-span-2 flex justify-center items-center" data-aos="fade-left">
               <div className="relative">
                 <div className="absolute -inset-1 bg-gradient-to-r from-primary to-accent rounded-full opacity-20 blur-sm"></div>
-                {heroImage && (
+                {/* {heroImage && ( */}
                   <Image
-                    src={heroImage.imageUrl}
-                    alt={heroImage.description}
-                    data-ai-hint={heroImage.imageHint}
+                    // src={heroImage.imageUrl}
+                    // alt={heroImage.description}
+                    // data-ai-hint={heroImage.imageHint}
+                    src={"/assets/img.png"}
+ alt="Romo Cuzco Agualsaca"
                     width={300}
                     height={300}
                     className="relative object-cover rounded-full w-[250px] h-[250px] md:w-[300px] md:h-[300px] shadow-md border-4 border-card"
                     priority
                   />
-                )}
+                 {/* )}  */}
               </div>
           </div>
         </div>

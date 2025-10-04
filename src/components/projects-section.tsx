@@ -21,7 +21,7 @@ const ProjectCard = ({ project, index }: { project: Project, index: number }) =>
             data-ai-hint={image.imageHint}
             width={600}
             height={450}
-            className="object-cover w-full h-auto"
+            className="object-cover w-full h-full"
           />
         </Card>
       )}
