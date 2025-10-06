@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Menu, Mountain } from "lucide-react"
+import { Menu } from "lucide-react"
 import { useState } from "react"
 
 import { Button } from "@/components/ui/button"
@@ -35,7 +35,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
         <Link href="/" className="mr-auto flex items-center space-x-2">
-          <Mountain className="h-6 w-6 text-primary" />
+          <span className="text-2xl font-bold text-primary">RC</span>
           <span className="hidden font-bold sm:inline-block font-headline">Romo Cuzco</span>
         </Link>
         <div className="flex items-center justify-end space-x-4">
