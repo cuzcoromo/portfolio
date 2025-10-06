@@ -15,7 +15,7 @@ export function SiteFooter() {
             romo.cuzco@example.com
           </a> */}
           <p className="text-lg font-semibold text-primary hover:underline">
-            romo.cuzco@example.com
+            0982738743
           </p>
         </div>
         <div className="mt-8 border-t pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
