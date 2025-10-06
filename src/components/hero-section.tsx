@@ -43,7 +43,7 @@ export function HeroSection() {
                     // src={heroImage.imageUrl}
                     // alt={heroImage.description}
                     // data-ai-hint={heroImage.imageHint}
-                    src={"/assets/img.png"}
+                    src={"/assets/imagen.jpg"}
                     alt="img perfil"
                     width={300}
                     height={300}
