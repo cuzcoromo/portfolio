@@ -44,7 +44,7 @@ export function HeroSection() {
                     // alt={heroImage.description}
                     // data-ai-hint={heroImage.imageHint}
                     src={"/assets/img.png"}
- alt="Romo Cuzco Agualsaca"
+                    alt="img perfil"
                     width={300}
                     height={300}
                     className="relative object-cover rounded-full w-[250px] h-[250px] md:w-[300px] md:h-[300px] shadow-md border-4 border-card"
